@@ -74,7 +74,16 @@ Este projeto se trata do desafio da trilha de NodeJs ,criada pelo Squad de capac
     ```bash
         sudo yarn install
     ```
-3. Rodando a aplicação:
+3. Adicionar variável de ambiente:
+    - Criar um arquivo .env na raiz do projeto.
+    - Adicionar uma variável SECRET, com uma string aleatória contendo apenas caracteres alfanuméricos e sem espaço.
+    ```yml
+        #exemplo
+        SECRET=917B13A9091915D54B6336F45909539CCE452B3661B21F386418A257883B30A
+
+    ```
+
+4. Rodando a aplicação:
     Uma vez que os passos acima tenham sido cumpridos, deve se:
     - Na primeira vez, rodar:
     ```bash
